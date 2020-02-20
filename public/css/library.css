@@ -1,0 +1,14 @@
+.image-box {
+  position: relative;
+}
+.hover {
+  position:absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  opacity: 0.4;
+  z-index: 10;
+  display: none;
+}

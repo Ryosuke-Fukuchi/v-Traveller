@@ -1,0 +1,38 @@
+.image-box {
+  position: relative;
+}
+.layer {
+  position: absolute;
+  right: 6px;
+  top: 10px;
+  z-index: 5;
+}
+.hover {
+  position:absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  opacity: 0.4;
+  z-index: 10;
+  display: none;
+}
+.data {
+  color: white;
+  opacity: 1;
+}
+
+.subscribed {
+  color: gray;
+}
+
+.keyword > span::after{
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  font-size: 18px;
+  content: " \f067 ";
+}
+.keyword > :last-child::after{
+  content: "";
+}

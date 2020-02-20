@@ -1,0 +1,43 @@
+.wrap {
+  position: relative;
+}
+.delete {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.add {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  cursor: pointer;
+}
+.fa-star {
+  cursor: pointer;
+}
+
+.arrow {
+  cursor: pointer;
+}
+
+#dot > li > i {
+  display: none;
+}
+#dot > li > .active {
+  display: block;
+}
+
+#previous {
+  display: none;
+}
+
+#image-box > li {
+  display: none;
+}
+#image-box > li.show {
+  display: block;
+}
+
+#add {
+  display: none;
+}
